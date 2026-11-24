@@ -1,0 +1,8 @@
+[
+  {"from_id":"sprigear","to_id":"stonegale","condition":{"level":36}},
+  {"from_id":"cinderpup","to_id":"embercub","condition":{"level":16}},
+  {"from_id":"brookfin","to_id":"puddle","condition":{"level":16}},
+  {"from_id":"voltkit","to_id":"thundern","condition":{"trade":true}},
+  {"from_id":"puddle","to_id":"tideking","condition":{"item":"tide_scale"}},
+  {"from_id":"grotto","to_id":"stonegale","condition":{"level":25}}
+]

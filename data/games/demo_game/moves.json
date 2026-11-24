@@ -1,0 +1,14 @@
+[
+  {"id":"tackle","name":"Tackle","type":"normal","category":"physical","base_power":40,"accuracy":100,"pp":35,"target":"single","tags":[]},
+  {"id":"quick_attack","name":"Quick Attack","type":"normal","category":"physical","base_power":40,"accuracy":100,"priority":1,"pp":30,"target":"single","tags":[]},
+  {"id":"leaf_blade","name":"Leaf Blade","type":"grass","category":"physical","base_power":90,"accuracy":100,"pp":15,"target":"single","tags":[]},
+  {"id":"flame_burst","name":"Flame Burst","type":"fire","category":"special","base_power":70,"accuracy":100,"pp":15,"target":"single","tags":[]},
+  {"id":"water_pulse","name":"Water Pulse","type":"water","category":"special","base_power":60,"accuracy":100,"pp":20,"target":"single","tags":[]},
+  {"id":"mud_shot","name":"Mud Shot","type":"ground","category":"special","base_power":55,"accuracy":95,"pp":15,"target":"single","tags":[]},
+  {"id":"spark","name":"Spark","type":"electric","category":"physical","base_power":65,"accuracy":100,"pp":20,"target":"single","tags":[]},
+  {"id":"rock_tomb","name":"Rock Tomb","type":"rock","category":"physical","base_power":60,"accuracy":95,"pp":15,"target":"single","tags":[]},
+  {"id":"giga_drain","name":"Giga Drain","type":"grass","category":"special","base_power":75,"accuracy":100,"pp":10,"target":"single","tags":["recovery"]},
+  {"id":"toxic","name":"Toxic","type":"poison","category":"status","base_power":0,"accuracy":90,"pp":10,"target":"single","tags":["status"]},
+  {"id":"aerial_ace","name":"Flying","type":"flying","category":"physical","base_power":60,"accuracy":100,"pp":20,"target":"single","tags":[]},
+  {"id":"protect","name":"Protect","type":"normal","category":"status","base_power":0,"accuracy":100,"pp":10,"target":"self","tags":["pivot"]}
+]

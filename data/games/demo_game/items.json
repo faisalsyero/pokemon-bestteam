@@ -1,0 +1,5 @@
+[
+  {"id":"surf","name":"Surf","category":"field_move","unique":false,"checkpoint":"gym_two"},
+  {"id":"toxic_tm","name":"TM Toxic","category":"tm","unique":true,"checkpoint":"gym_one"},
+  {"id":"tide_scale","name":"Tide Scale","category":"evolution_item","unique":false,"checkpoint":"elite_four"}
+]

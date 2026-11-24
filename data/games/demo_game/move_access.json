@@ -1,0 +1,18 @@
+[
+  {"pokemon_id":"sprigear","move_id":"leaf_blade","source":"level-up","level":12,"reusable":true},
+  {"pokemon_id":"sprigear","move_id":"tackle","source":"level-up","level":1,"reusable":true},
+  {"pokemon_id":"cinderpup","move_id":"flame_burst","source":"level-up","level":10,"reusable":true},
+  {"pokemon_id":"brookfin","move_id":"water_pulse","source":"level-up","level":8,"reusable":true},
+  {"pokemon_id":"sparrow","move_id":"quick_attack","source":"level-up","level":4,"reusable":true},
+  {"pokemon_id":"sparrow","move_id":"aerial_ace","source":"tutor","checkpoint":"gym_one","reusable":true},
+  {"pokemon_id":"embercub","move_id":"flame_burst","source":"level-up","level":7,"reusable":true},
+  {"pokemon_id":"grotto","move_id":"mud_shot","source":"level-up","level":9,"reusable":true},
+  {"pokemon_id":"puddle","move_id":"water_pulse","source":"level-up","level":8,"reusable":true},
+  {"pokemon_id":"voltkit","move_id":"spark","source":"level-up","level":6,"reusable":true},
+  {"pokemon_id":"mossling","move_id":"giga_drain","source":"level-up","level":12,"reusable":true},
+  {"pokemon_id":"mossling","move_id":"toxic","source":"TM","checkpoint":"gym_two","reusable":false},
+  {"pokemon_id":"stonegale","move_id":"rock_tomb","source":"level-up","level":10,"reusable":true},
+  {"pokemon_id":"thundern","move_id":"spark","source":"level-up","level":20,"reusable":true},
+  {"pokemon_id":"tideking","move_id":"mud_shot","source":"level-up","level":20,"reusable":true},
+  {"pokemon_id":"tideking","move_id":"water_pulse","source":"level-up","level":18,"reusable":true}
+]

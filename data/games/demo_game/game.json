@@ -1,0 +1,10 @@
+{
+  "id": "demo_game",
+  "title": "Teal Highlands Demo",
+  "version": "1.0",
+  "generation": 9,
+  "base_game": "fictional",
+  "difficulty_profiles": ["casual", "normal", "hard"],
+  "source_notes": ["Fictional manually verified demo pack"],
+  "data_completeness": 0.85
+}

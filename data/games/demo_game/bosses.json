@@ -1,0 +1,6 @@
+[
+  {"id":"moss_gym","name":"Moss Gym","checkpoint_id":"gym_one","members":[{"species":"mossling","level":12,"types":["grass","poison"],"moves":["giga_drain"],"lead":true},{"species":"sparrow","level":13,"types":["normal","flying"],"moves":["quick_attack"]}],"battle_format":"singles"},
+  {"id":"wave_gym","name":"Wave Gym","checkpoint_id":"gym_two","members":[{"species":"puddle","level":20,"types":["water"],"moves":["water_pulse"],"lead":true},{"species":"brookfin","level":19,"types":["water"],"moves":["tackle"]}],"battle_format":"singles"},
+  {"id":"storm_champion","name":"Storm Champion","checkpoint_id":"elite_four","members":[{"species":"thundern","level":40,"types":["electric","flying"],"moves":["spark"],"lead":true},{"species":"sparrow","level":38,"types":["normal","flying"],"moves":["aerial_ace"]}],"battle_format":"singles","weather":"rain"},
+  {"id":"rock_elite","name":"Rock Elite","checkpoint_id":"elite_four","members":[{"species":"stonegale","level":41,"types":["rock","flying"],"moves":["rock_tomb"],"lead":true},{"species":"grotto","level":39,"types":["rock","ground"],"moves":["mud_shot"]}],"battle_format":"singles","terrain":"sand"}
+]

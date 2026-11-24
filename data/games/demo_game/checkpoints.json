@@ -1,0 +1,6 @@
+[
+  {"id":"route_one","name":"Route 1","order":0,"category":"route","level_cap":5,"newly_accessible_locations":["Route 1"],"newly_available_items":[],"newly_available_moves":[],"newly_available_evolutions":[],"importance":0.35},
+  {"id":"gym_one","name":"Moss Gym","order":1,"category":"gym","level_cap":14,"newly_accessible_locations":["Stone Tunnel"],"newly_available_items":["TM Toxic"],"newly_available_moves":["Aerial Ace"],"newly_available_evolutions":[],"importance":0.65},
+  {"id":"gym_two","name":"Wave Gym","order":2,"category":"gym","level_cap":22,"newly_accessible_locations":["Storm Meadows","Sunlit Lake"],"newly_available_items":["Surf"],"newly_available_moves":[],"newly_available_evolutions":[],"importance":0.75},
+  {"id":"elite_four","name":"Elite Four","order":3,"category":"league","level_cap":42,"newly_accessible_locations":["Storm Peak","Deep Reef"],"newly_available_items":["Tide Scale"],"newly_available_moves":[],"newly_available_evolutions":[],"importance":1.0}
+]

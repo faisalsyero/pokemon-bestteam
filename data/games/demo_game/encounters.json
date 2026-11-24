@@ -1,0 +1,14 @@
+[
+  {"pokemon_id":"sprigear","location":"Starter choice","first_checkpoint":"route_one","method":"gift","encounter_rate":1,"level_range":[5,5],"probability_reliability":1},
+  {"pokemon_id":"cinderpup","location":"Starter choice","first_checkpoint":"route_one","method":"gift","encounter_rate":1,"level_range":[5,5],"probability_reliability":1},
+  {"pokemon_id":"brookfin","location":"Starter choice","first_checkpoint":"route_one","method":"gift","encounter_rate":1,"level_range":[5,5],"probability_reliability":1},
+  {"pokemon_id":"sparrow","location":"Route 1","first_checkpoint":"route_one","method":"grass","encounter_rate":0.35,"level_range":[2,4],"probability_reliability":0.9},
+  {"pokemon_id":"embercub","location":"Ember Path","first_checkpoint":"route_two","method":"grass","encounter_rate":0.12,"level_range":[8,12],"probability_reliability":0.7},
+  {"pokemon_id":"grotto","location":"Stone Tunnel","first_checkpoint":"gym_one","method":"cave","encounter_rate":0.18,"level_range":[12,16],"probability_reliability":0.8},
+  {"pokemon_id":"puddle","location":"Sunlit Lake","first_checkpoint":"gym_two","method":"surf","encounter_rate":0.2,"level_range":[15,18],"required_field_move":"surf","probability_reliability":0.85},
+  {"pokemon_id":"voltkit","location":"Storm Meadows","first_checkpoint":"gym_two","method":"grass","encounter_rate":0.08,"level_range":[16,20],"probability_reliability":0.6},
+  {"pokemon_id":"mossling","location":"Greenhouse","first_checkpoint":"gym_one","method":"gift","encounter_rate":1,"level_range":[14,14],"probability_reliability":1},
+  {"pokemon_id":"stonegale","location":"Stone Tunnel","first_checkpoint":"gym_one","method":"cave","encounter_rate":0.08,"level_range":[12,16],"probability_reliability":0.6},
+  {"pokemon_id":"thundern","location":"Storm Peak","first_checkpoint":"elite_four","method":"trade","encounter_rate":1,"level_range":[30,30],"probability_reliability":0.5},
+  {"pokemon_id":"tideking","location":"Deep Reef","first_checkpoint":"elite_four","method":"surf","encounter_rate":0.05,"level_range":[38,42],"probability_reliability":0.4}
+]
