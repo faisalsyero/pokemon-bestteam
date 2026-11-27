@@ -31,6 +31,11 @@ checkpoints, and 4 bosses. Packs live under `data/games/<game-id>/`.
 pokemon-ai validate-data --game demo_game
 pokemon-ai rank-pokemon --game demo_game
 pokemon-ai score-pokemon --game demo_game --pokemon voltkit
+pokemon-ai score-team --game demo_game --team brookfin,sparrow,grotto,voltkit,mossling,puddle
+pokemon-ai optimise --game demo_game --algorithm beam --seed 42
+py -m pokemon_ai optimise --game demo_game --algorithm beam --core voltkit --trades
+pokemon-ai compare-algorithms --game demo_game --seed 42
+pokemon-ai progression-plan --game demo_game --team brookfin,sparrow,grotto,voltkit,mossling,puddle
 pytest -q
 ```
 
@@ -39,6 +44,27 @@ You can also run the CLI without the console script:
 ```powershell
 python -m pokemon_ai.cli validate-data --game demo_game
 ```
+
+## Web UI
+
+Start the easy browser interface:
+
+```powershell
+python -m pokemon_ai.web
+# or
+pokemon-team-ui
+```
+
+Open `http://127.0.0.1:8000`. It provides:
+
+- A selectable Pokémon roster
+- Manual team selection and team scoring
+- Pokémon rankings
+- Trade, core, banned-Pokémon, seed, team-size, and algorithm controls
+- Best-team, explanation, and alternative-team results
+
+The API is available at `/api/games`, `/api/pokemon`, `/api/rank`,
+`/api/score-team`, and `/api/optimise`.
 
 ## Implemented in this phase
 
@@ -52,6 +78,14 @@ python -m pokemon_ai.cli validate-data --game demo_game
 - Trade-evolution and trade-patched behaviour
 - CLI validation, ranking, and per-Pokémon reporting
 - Unit and integration tests for the demo pack
+- Team-level type, boss, role, resource, species, and core-synergy scoring
+- Exhaustive, random, greedy, beam, genetic, simulated-annealing, tabu, and hybrid optimisers
+- Seeded and core-aware deterministic search
+- Progression roster plans and moveset checkpoint helpers
+- Generation-aware heuristic damage features
+- PokeAPI cached import scaffolding and custom JSON loading
+- FastAPI JSON API and a dark, easy-to-use browser UI
+- Difficulty profiles and calibration data schemas
 
 ## Assumptions
 

@@ -1,6 +1,8 @@
 import json
 from pathlib import Path
 
+from pokemon_ai.mechanics.type_chart import load_type_chart
+
 from pokemon_ai.models import (
     Boss, Checkpoint, Encounter, Evolution, Game, Move,
     MoveAccess, Pokemon,
@@ -46,6 +48,7 @@ def load_game(game_id: str, data_root: str | Path = "data") -> dict:
         if access.pokemon_id not in pokemon_by_id or access.move_id not in move_by_id:
             raise ValueError(f"Move access references unknown Pokémon or move: {access}")
 
+    chart_path = root / "type_chart.json"
     return {
         "game": game,
         "pokemon": pokemon,
@@ -55,5 +58,6 @@ def load_game(game_id: str, data_root: str | Path = "data") -> dict:
         "evolutions": evolutions,
         "checkpoints": sorted(checkpoints, key=lambda item: item.order),
         "bosses": sorted(bosses, key=lambda item: next(cp.order for cp in checkpoints if cp.id == item.checkpoint_id)),
-        "type_chart": (root / "type_chart.json").as_posix(),
+        "type_chart": chart_path.as_posix(),
+        "_chart": load_type_chart(chart_path),
     }
